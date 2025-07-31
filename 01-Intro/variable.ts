@@ -20,4 +20,11 @@ function getHero(){
 }
 hero = getHero();
 console.log(hero);
+
+//noImplicitAny
+function getHero2(){
+    return "Batman";
+}
+hero = getHero2();
+console.log(hero);
 export  {};

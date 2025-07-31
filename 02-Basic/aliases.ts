@@ -4,6 +4,7 @@ type User ={
     isActive : boolean
 }
 
-function createUser(user:User): {
+function createUser(user:User): User {
+    return {name:"",email:"",isActive:true};
 } 
-
+createUser({name:"",email:"",isActive:true});
